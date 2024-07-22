@@ -41,6 +41,18 @@ Este guia fornece instruções para executar o projeto usando Docker e Docker Co
    http://localhost:8200
    ```
 
+   ## Endpoints:
+
+   - Login:
+   ```bash
+   curl --location 'http://localhost:8200/login' --header 'Content-Type: application/json' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjE5MzYzMzMsInVzZXJuYW1lIjoidGVzdCJ9.6CBKTy8ePMlCzVsLNJNRRRk0bFDbKzawwlqbZ9oV8Ss' --data '{"username":"test","password":"password"}'
+   ```
+
+   - Records:
+   ```bash
+   curl --location 'http://localhost:8200/api/records' --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjE5MzYzMzMsInVzZXJuYW1lIjoidGVzdCJ9.6CBKTy8ePMlCzVsLNJNRRRk0bFDbKzawwlqbZ9oV8Ss'
+   ```
+
 5. **Credenciais de Login**
 
    Use as seguintes credenciais para fazer login:
