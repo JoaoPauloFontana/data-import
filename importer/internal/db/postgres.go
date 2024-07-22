@@ -88,4 +88,5 @@ func Init() {
         benefit_type TEXT
     );`
 	DB.MustExec(schema)
+	log.Println("Creating table records...")
 }

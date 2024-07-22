@@ -11,6 +11,8 @@ FROM alpine:latest
 
 WORKDIR /app
 
+RUN apk add --no-cache postgresql-client
+
 COPY --from=builder /app/importer .
 COPY ./Reconfile_fornecedores.xlsx ./
 
