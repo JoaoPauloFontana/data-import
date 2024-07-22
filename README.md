@@ -40,3 +40,10 @@ Este guia fornece instruções para executar o projeto usando Docker e Docker Co
    ```bash
    http://localhost:8200
    ```
+
+5. **Credenciais de Login**
+
+   Use as seguintes credenciais para fazer login:
+
+   - Login: 'test'
+   - Password: 'password'
